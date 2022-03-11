@@ -34,7 +34,7 @@ const config = {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: `public/index.html`,
-      favicon: `../src/images/favicon.png`,
+      favicon: `./src/images/sb_favicon.png`,
     }),
   ],
   

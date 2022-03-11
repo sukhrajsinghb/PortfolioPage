@@ -25,9 +25,13 @@ li{
     
 }
 
+.image-divs {
+    display: flex;
+    text-align: center;
+}
+
 .image-tags {
     height: 75px;
     width: 75px;
     margin: 20px;
-    text-align: center;
 }

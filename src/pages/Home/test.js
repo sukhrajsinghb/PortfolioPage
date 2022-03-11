@@ -4,6 +4,6 @@ import About from '.';
 describe('About', () => {
     test('it shows page header', () => {
         render(<About />)
-        expect(screen.getByRole('heading').textContent).toContain('Welcome');
+        expect(screen.getByRole('h1').textContent).toContain('Welcome');
     })
 })
